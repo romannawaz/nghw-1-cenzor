@@ -116,6 +116,10 @@
               "devServerTarget": "hw01-cenzor:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
